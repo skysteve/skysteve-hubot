@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "Hubot",
+      "script": "./bin/hubot",
+      "interpreter": "/bin/bash",
+      "env_production": {
+        "NODE_ENV": "production"
+      },
+      "watch": true,
+      "log" : "/tmp/hubot-logs.log",
+      "combine_logs"     : true
+    }
+  ]
+}
